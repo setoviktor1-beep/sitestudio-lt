@@ -11,10 +11,10 @@ export default function Hero() {
   return (
     <section
       id="hero"
-      className="relative flex min-h-screen items-center overflow-hidden bg-white"
+      className="relative flex min-h-[calc(100svh-4rem)] items-center overflow-hidden bg-white"
     >
       <div className="pointer-events-none absolute inset-0 bg-[radial-gradient(circle_at_top,rgba(37,99,235,0.12),transparent_60%)]" />
-      <div className="relative mx-auto w-full max-w-6xl px-4 py-24 sm:px-6 lg:px-8">
+      <div className="relative mx-auto w-full max-w-6xl px-4 py-16 sm:px-6 sm:py-20 lg:px-8">
         <div className="max-w-3xl">
           <h1 className="text-5xl font-bold tracking-tight text-gray-900 sm:text-6xl">
             {t("h1")}
