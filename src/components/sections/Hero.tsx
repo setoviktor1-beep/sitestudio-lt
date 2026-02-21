@@ -38,10 +38,6 @@ export default function Hero() {
           </div>
         </div>
       </div>
-
-      <div className="absolute bottom-8 left-1/2 -translate-x-1/2 text-xs font-medium uppercase tracking-[0.2em] text-gray-400">
-        Scroll
-      </div>
     </section>
   );
 }
