@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "services": "Paslaugos",
+    "portfolio": "Portfolio",
+    "pricing": "Paslaugos",
+    "about": "Apie",
+    "contact": "Kontaktai",
+    "cta": "Gauti pasiūlymą"
+  },
+  "hero": {
+    "h1": "Kuriu svetaines, kurios dirba už jus",
+    "subtitle": "Landing page'ai, verslo svetainės ir web aplikacijos. Greitas pristatymas, modernus dizainas, SEO pagrindai.",
+    "cta": "Gauti pasiūlymą",
+    "cta2": "Peržiūrėti darbus"
+  },
+  "services": {
+    "title": "Paslaugos",
+    "subtitle": "Nuo paprasto landing page iki sudėtingos web aplikacijos",
+    "s1_title": "Landing Page",
+    "s1_desc": "Greitas, konvertuojantis vieno puslapio sprendimas. Su kontaktų forma, mobilia versija ir SEO pagrindais.",
+    "s1_delivery": "Pristatymas per 3-5 d.d.",
+    "s2_title": "Verslo svetainė",
+    "s2_desc": "4-6 puslapių svetainė su pilnu turiniu: pagrindinis, paslaugos, apie mus, kontaktai. Greita ir optimizuota.",
+    "s2_delivery": "Pristatymas per 7-10 d.d.",
+    "s3_title": "Web Aplikacija",
+    "s3_desc": "Sudėtingesni projektai su vartotojų sistema, duomenų baze ir mokėjimais. Next.js + Supabase + Stripe.",
+    "s3_delivery": "Pristatymas per 14-21 d.d."
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Projektai, kuriuos jau sukūriau",
+    "view": "Žiūrėti projektą"
+  },
+  "pricing": {
+    "title": "Paslaugos",
+    "subtitle": "Pasirinkite paslaugą pagal savo poreikius",
+    "popular": "Populiariausia",
+    "cta": "Susisiekti dėl kainos",
+    "p1_name": "Landing Page",
+    "p1_price": "",
+    "p1_features": [
+      "Vienas puslapis",
+      "Kontaktų forma",
+      "Mobili versija",
+      "SEO pagrindai",
+      "Pristatymas per 3-5 d.d."
+    ],
+    "p2_name": "Verslo svetainė",
+    "p2_price": "",
+    "p2_features": [
+      "Iki 6 puslapių",
+      "Admin turinio valdymas",
+      "Blog (optional)",
+      "SEO optimizacija",
+      "Pristatymas per 7-10 d.d."
+    ],
+    "p3_name": "Web Aplikacija",
+    "p3_price": "",
+    "p3_features": [
+      "Vartotojų sistema",
+      "Duomenų bazė (Supabase)",
+      "Mokėjimai (Stripe)",
+      "Dashboard",
+      "Pristatymas per 14-21 d.d."
+    ]
+  },
+  "about": {
+    "title": "Apie mane",
+    "text": "Esu Viktor - web kūrėjas ir AI sprendimų architektas iš Briuselio. Kuriu svetaines naudodamas moderniausias technologijas: Next.js, Supabase, Stripe. Kiekvienas projektas - greitas, optimizuotas ir pritaikytas jūsų verslui.",
+    "stat1": "10+",
+    "stat1_label": "Sukurtų projektų",
+    "stat2": "3-5",
+    "stat2_label": "Dienų pristatymas",
+    "stat3": "3",
+    "stat3_label": "Paslaugų tipai"
+  },
+  "contact": {
+    "title": "Susisiekite",
+    "subtitle": "Papasakokite apie savo projektą - atsakysiu per 24 val.",
+    "name": "Vardas",
+    "email": "El. paštas",
+    "message": "Žinutė",
+    "send": "Siųsti",
+    "success": "Žinutė išsiųsta! Susisieksiu greitai.",
+    "error": "Klaida. Bandykite dar kartą."
+  },
+  "footer": {
+    "copy": "© 2025 SiteStudio. Visos teisės saugomos."
+  }
+}

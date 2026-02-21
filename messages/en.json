@@ -1,0 +1,90 @@
+{
+  "nav": {
+    "services": "Services",
+    "portfolio": "Portfolio",
+    "pricing": "Services",
+    "about": "About",
+    "contact": "Contact",
+    "cta": "Get a quote"
+  },
+  "hero": {
+    "h1": "Websites that work for your business",
+    "subtitle": "Landing pages, business websites and web applications. Fast delivery, modern design, SEO basics included.",
+    "cta": "Get a quote",
+    "cta2": "View portfolio"
+  },
+  "services": {
+    "title": "Services",
+    "subtitle": "From a simple landing page to a complex web application",
+    "s1_title": "Landing Page",
+    "s1_desc": "Fast, converting single-page solution. Includes contact form, mobile version and SEO basics.",
+    "s1_delivery": "Delivered in 3-5 business days",
+    "s2_title": "Business Website",
+    "s2_desc": "4-6 page website with full content: home, services, about, contact. Fast and optimized.",
+    "s2_delivery": "Delivered in 7-10 business days",
+    "s3_title": "Web Application",
+    "s3_desc": "Complex projects with user authentication, database and payments. Next.js + Supabase + Stripe.",
+    "s3_delivery": "Delivered in 14-21 business days"
+  },
+  "portfolio": {
+    "title": "Portfolio",
+    "subtitle": "Projects I've already built",
+    "view": "View project"
+  },
+  "pricing": {
+    "title": "Pricing",
+    "subtitle": "Transparent packages with no hidden fees",
+    "popular": "Most popular",
+    "cta": "Ask for a quote",
+    "p1_name": "Starter",
+    "p1_price": "from €299",
+    "p1_features": [
+      "Single page",
+      "Contact form",
+      "Mobile responsive",
+      "SEO basics",
+      "Delivered in 3-5 days"
+    ],
+    "p2_name": "Business",
+    "p2_price": "from €599",
+    "p2_features": [
+      "Up to 6 pages",
+      "Admin content management",
+      "Blog (optional)",
+      "SEO optimization",
+      "Delivered in 7-10 days"
+    ],
+    "p3_name": "Pro",
+    "p3_price": "from €1,499",
+    "p3_features": [
+      "User authentication",
+      "Database (Supabase)",
+      "Payments (Stripe)",
+      "Dashboard",
+      "Delivered in 14-21 days"
+    ]
+  },
+  "about": {
+    "title": "About me",
+    "text": "I'm Viktor - a web developer and AI Solutions Architect based in Brussels. I build websites using modern technologies: Next.js, Supabase, Stripe. Every project is fast, optimized and tailored to your business.",
+    "stat1": "10+",
+    "stat1_label": "Projects built",
+    "stat2": "3-5",
+    "stat2_label": "Days delivery",
+    "stat3": "3",
+    "stat3_label": "Service types"
+  },
+  "contact": {
+    "title": "Get in touch",
+    "subtitle": "Tell me about your project - I'll respond within 24 hours.",
+    "name": "Name",
+    "email": "Email",
+    "message": "Message",
+    "send": "Send",
+    "success": "Message sent! I'll get back to you shortly.",
+    "error": "Something went wrong. Please try again."
+  },
+  "footer": {
+    "copy": "© 2025 SiteStudio. All rights reserved."
+  }
+}
