@@ -10,7 +10,11 @@ const inter = Inter({
 export const metadata: Metadata = {
   metadataBase: new URL("https://sitestudio.lt"),
   title: "SiteStudio",
-  description: "Professional websites for business."
+  description: "Professional websites for business.",
+  icons: {
+    icon: "/favicon.svg",
+    shortcut: "/favicon.svg",
+  },
 };
 
 type RootLayoutProps = {
