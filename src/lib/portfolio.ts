@@ -44,7 +44,7 @@ export const projects: PortfolioProject[] = [
       lt: "SaaS platforma GitHub repozitorijų AI auditui su mokėjimų sistema.",
       en: "SaaS platform for AI-powered GitHub repository audits with payment system."
     },
-    link: "https://github.com/setoviktor1-beep/ai-audit-saas"
+    link: "https://ai-audit-saas-tau.vercel.app"
   },
   {
     id: 4,
