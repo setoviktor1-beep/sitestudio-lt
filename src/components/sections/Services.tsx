@@ -7,28 +7,24 @@ const iconClassName = "h-6 w-6 text-blue-600";
 
 export default function Services() {
   const tServices = useTranslations("services");
-  const tPricing = useTranslations("pricing");
 
   const services = [
     {
       title: tServices("s1_title"),
       description: tServices("s1_desc"),
       delivery: tServices("s1_delivery"),
-      price: tPricing("p1_price"),
       icon: <Zap className={iconClassName} />
     },
     {
       title: tServices("s2_title"),
       description: tServices("s2_desc"),
       delivery: tServices("s2_delivery"),
-      price: tPricing("p2_price"),
       icon: <Globe className={iconClassName} />
     },
     {
       title: tServices("s3_title"),
       description: tServices("s3_desc"),
       delivery: tServices("s3_delivery"),
-      price: tPricing("p3_price"),
       icon: <Code className={iconClassName} />
     }
   ];
@@ -56,9 +52,6 @@ export default function Services() {
               <p className="mt-3 text-sm text-gray-600">{service.description}</p>
               <p className="mt-4 text-sm font-medium text-blue-700">
                 {service.delivery}
-              </p>
-              <p className="mt-2 text-xl font-semibold text-gray-900">
-                {service.price}
               </p>
             </article>
           ))}
