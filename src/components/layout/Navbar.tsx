@@ -6,7 +6,7 @@ import Link from "next/link";
 import { usePathname } from "next/navigation";
 import { useEffect, useMemo, useState } from "react";
 
-const sectionIds = ["services", "portfolio", "pricing", "about", "contact"];
+const sectionIds = ["services", "portfolio", "about", "contact"];
 
 export default function Navbar() {
   const t = useTranslations("nav");
@@ -49,7 +49,6 @@ export default function Navbar() {
   const navItems = [
     { id: "services", label: t("services") },
     { id: "portfolio", label: t("portfolio") },
-    { id: "pricing", label: t("pricing") },
     { id: "about", label: t("about") },
     { id: "contact", label: t("contact") }
   ];
