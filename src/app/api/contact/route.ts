@@ -1,4 +1,4 @@
-import { resend } from "@/lib/resend";
+import { getResendClient } from "@/lib/resend";
 import { NextResponse } from "next/server";
 
 const emailPattern = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
@@ -19,7 +19,9 @@ export async function POST(request: Request) {
       );
     }
 
-    if (!process.env.RESEND_API_KEY) {
+    const resend = getResendClient();
+
+    if (!resend) {
       return NextResponse.json(
         { error: "RESEND_API_KEY is missing." },
         { status: 500 }
