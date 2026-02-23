@@ -1,8 +1,9 @@
 "use client";
 
-import { useEffect, useState } from "react";
+import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
 import { projects } from "@/lib/portfolio";
+import TiltCard from "@/components/ui/TiltCard";
 
 export default function Portfolio() {
   const t = useTranslations("portfolio");
@@ -12,6 +13,11 @@ export default function Portfolio() {
   const [current, setCurrent] = useState(0);
   const [paused, setPaused] = useState(false);
 
+  // Per-card image refs for parallax
+  const imgRefs = useRef<(React.RefObject<HTMLImageElement | null>)[]>(
+    Array.from({ length: 3 }, () => ({ current: null }))
+  );
+
   useEffect(() => {
     if (paused) return;
     const timer = setInterval(() => {
@@ -20,10 +26,15 @@ export default function Portfolio() {
     return () => clearInterval(timer);
   }, [paused]);
 
-  const prev = () => setCurrent((c) => (c - 1 + projects.length) % projects.length);
-  const next = () => setCurrent((c) => (c + 1) % projects.length);
+  const prev = () => {
+    setPaused(true);
+    setCurrent((c) => (c - 1 + projects.length) % projects.length);
+  };
+  const next = () => {
+    setPaused(true);
+    setCurrent((c) => (c + 1) % projects.length);
+  };
 
-  // Show 3 cards: prev, current, next
   const getVisible = () => {
     const p = (current - 1 + projects.length) % projects.length;
     const n = (current + 1) % projects.length;
@@ -47,15 +58,17 @@ export default function Portfolio() {
           onMouseEnter={() => setPaused(true)}
           onMouseLeave={() => setPaused(false)}
         >
-          {/* Cards */}
           <div className="grid gap-6 sm:grid-cols-3">
             {visible.map((idx, pos) => {
               const project = projects[idx];
               const isCenter = pos === 1;
+              const imgRef = imgRefs.current[pos];
+
               return (
-                <article
-                  key={project.id}
-                  className={`overflow-hidden rounded-xl border bg-white transition-all duration-500 ${
+                <TiltCard
+                  key={`${project.id}-${pos}`}
+                  imageRef={imgRef}
+                  className={`rounded-xl border bg-white transition-all duration-500 ${
                     isCenter
                       ? "border-blue-200 shadow-lg scale-105"
                       : "border-gray-200 opacity-60 scale-95"
@@ -63,9 +76,11 @@ export default function Portfolio() {
                 >
                   <div className="aspect-video overflow-hidden bg-gray-100">
                     <img
+                      ref={imgRef as React.RefObject<HTMLImageElement>}
                       src={`https://s0.wp.com/mshots/v1/${encodeURIComponent(project.link)}?w=600&h=400`}
                       alt={project.title}
                       className="h-full w-full object-cover"
+                      style={{ transition: "transform 0.15s ease-out" }}
                       loading="lazy"
                     />
                   </div>
@@ -93,7 +108,7 @@ export default function Portfolio() {
                       </>
                     )}
                   </div>
-                </article>
+                </TiltCard>
               );
             })}
           </div>
@@ -107,20 +122,17 @@ export default function Portfolio() {
             >
               ←
             </button>
-
-            {/* Dots */}
             <div className="flex gap-2">
               {projects.map((_, i) => (
                 <button
                   key={i}
-                  onClick={() => setCurrent(i)}
+                  onClick={() => { setPaused(true); setCurrent(i); }}
                   className={`h-2 rounded-full transition-all ${
                     i === current ? "w-6 bg-blue-600" : "w-2 bg-gray-300"
                   }`}
                 />
               ))}
             </div>
-
             <button
               onClick={next}
               className="rounded-full border border-gray-300 p-2 hover:border-blue-400 hover:text-blue-600 transition"
