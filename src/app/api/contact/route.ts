@@ -29,8 +29,8 @@ export async function POST(request: Request) {
     }
 
     await resend.emails.send({
-      from: "SiteStudio <onboarding@resend.dev>",
-      to: ["viktor@sitestudio.lt"],
+      from: "SiteStudio <no-reply@send.sitestudio.lt>",
+      to: ["setvik776@gmail.com"],
       replyTo: email,
       subject: `New SiteStudio inquiry from ${name}`,
       text: `Name: ${name}\nEmail: ${email}\n\nMessage:\n${message}`
