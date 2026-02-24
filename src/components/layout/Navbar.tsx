@@ -133,6 +133,7 @@ export default function Navbar() {
                   key={item.id}
                   href={`${pagePath}#${item.id}`}
                   className="text-sm text-gray-700"
+                  onClick={() => setMenuOpen(false)}
                 >
                   {item.label}
                 </Link>
@@ -162,6 +163,7 @@ export default function Navbar() {
               <Link
                 href={`${pagePath}#contact`}
                 className="mt-2 inline-flex w-fit rounded-lg bg-blue-600 px-4 py-2 text-sm font-medium text-white"
+                onClick={() => setMenuOpen(false)}
               >
                 {t("cta")}
               </Link>
