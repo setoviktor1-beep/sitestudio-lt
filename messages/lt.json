@@ -86,5 +86,11 @@
   },
   "footer": {
     "copy": "© 2025 SiteStudio. Visos teisės saugomos."
+  },
+  "cookies": {
+    "text": "Mes naudojame slapukus svetainės veikimui užtikrinti. Daugiau informacijos:",
+    "policy": "Privatumo politika",
+    "accept": "Sutinku",
+    "decline": "Atmesti"
   }
 }

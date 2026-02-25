@@ -5,6 +5,7 @@ import Contact from "@/components/sections/Contact";
 import Hero from "@/components/sections/Hero";
 import Portfolio from "@/components/sections/Portfolio";
 import Services from "@/components/sections/Services";
+import CookieBanner from "@/components/ui/CookieBanner";
 
 export default function HomePage() {
   return (
@@ -18,6 +19,7 @@ export default function HomePage() {
         <Contact />
       </main>
       <Footer />
+      <CookieBanner />
     </>
   );
 }
