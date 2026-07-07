@@ -1,0 +1,36 @@
+# SiteStudio
+
+SiteStudio is a web development studio run by Viktor Seto, a web developer and AI Solutions Architect based in Brussels, Belgium.
+
+## What we do
+
+- Build landing pages, business websites and web applications
+- Use modern technologies: Next.js, React, TypeScript, Tailwind CSS
+- Integrate backends with Supabase/PostgreSQL
+- Add payments with Stripe
+- Implement AI integrations (Gemini, OpenAI)
+- Include SEO fundamentals in every project
+
+## Service packages
+
+See `/pricing.md` for detailed pricing.
+
+## Target markets
+
+- Lithuania
+- Belgium
+- Worldwide remote clients
+
+## Contact
+
+- Website: https://sitestudio.lt
+- Email: viktor@sitestudio.lt
+- Location: Brussels, Belgium
+- GitHub: https://github.com/setoviktor1-beep
+- Social: Facebook, Instagram, TikTok @sitestudio.lt
+
+## Important pages
+
+- Home: https://sitestudio.lt/lt (Lithuanian)
+- Home EN: https://sitestudio.lt/en (English)
+- Privacy Policy: https://sitestudio.lt/lt/privacy-policy

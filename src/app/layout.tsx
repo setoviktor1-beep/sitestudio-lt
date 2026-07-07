@@ -1,30 +1,9 @@
-import type { Metadata } from "next";
-import { Inter } from "next/font/google";
-import "./globals.css";
+import type { ReactNode } from "react";
 
-const inter = Inter({
-  subsets: ["latin"],
-  display: "swap"
-});
-
-export const metadata: Metadata = {
-  metadataBase: new URL("https://sitestudio.lt"),
-  title: "SiteStudio",
-  description: "Professional websites for business.",
-  icons: {
-    icon: "/favicon.svg",
-    shortcut: "/favicon.svg",
-  },
-};
-
-type RootLayoutProps = {
-  children: React.ReactNode;
-};
-
-export default function RootLayout({ children }: RootLayoutProps) {
-  return (
-    <html lang="lt">
-      <body className={inter.className}>{children}</body>
-    </html>
-  );
+export default function RootLayout({
+  children
+}: {
+  children: ReactNode;
+}) {
+  return children;
 }

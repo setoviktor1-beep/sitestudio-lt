@@ -1,10 +1,12 @@
 "use client";
 
 import { useEffect, useState } from "react";
-import { useTranslations } from "next-intl";
+import { useLocale, useTranslations } from "next-intl";
+import Link from "next/link";
 
 export default function CookieBanner() {
   const t = useTranslations("cookies");
+  const locale = useLocale();
   const [visible, setVisible] = useState(false);
 
   useEffect(() => {
@@ -32,14 +34,12 @@ export default function CookieBanner() {
         <div className="flex-1">
           <p className="text-sm text-gray-700">
             {t("text")}{" "}
-            <a
-              href="https://www.privacypolicies.com/live/SAMPLE"
-              target="_blank"
-              rel="noreferrer"
+            <Link
+              href={`/${locale}/privacy-policy`}
               className="underline text-blue-600 hover:text-blue-700"
             >
               {t("policy")}
-            </a>
+            </Link>
             .
           </p>
         </div>

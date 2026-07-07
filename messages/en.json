@@ -64,15 +64,63 @@
       "Delivered in 14-21 days"
     ]
   },
+  "faq": {
+    "title": "Frequently Asked Questions",
+    "subtitle": "Answers about website development and working together",
+    "items": [
+      {
+        "q": "How much does a website cost?",
+        "a": "A landing page starts from €299, a business website from €599, and a more complex web application from €1,499. The final price depends on features, design complexity, and timeline."
+      },
+      {
+        "q": "How long does it take to build a website?",
+        "a": "A simple landing page takes 3-5 business days, a business website takes 7-10 days, and a web application takes 14-21 business days. The timeline depends on project scope."
+      },
+      {
+        "q": "What technologies do you use?",
+        "a": "I build modern websites using Next.js, React, TypeScript, and Tailwind CSS. For backend I use Supabase, and for payments I use Stripe. This ensures speed, security, and SEO performance."
+      },
+      {
+        "q": "Will the website be mobile-friendly?",
+        "a": "Yes, every website I build is fully responsive and adapts to phones, tablets, and desktop screens. This is essential for both SEO and user experience."
+      },
+      {
+        "q": "Will the website be optimized for Google search?",
+        "a": "Yes, every project includes SEO fundamentals: speed, meta tags, semantic HTML, structured data, and a mobile version. I can also perform a comprehensive SEO audit if needed."
+      },
+      {
+        "q": "Where are you based and who do you work with?",
+        "a": "I am based in Brussels, Belgium, and work with clients from Lithuania, Belgium, and worldwide. All communication happens via email, video calls, and project management tools."
+      }
+    ]
+  },
   "about": {
     "title": "About me",
-    "text": "I'm Viktor - a web developer and AI Solutions Architect based in Brussels. I build websites using modern technologies: Next.js, Supabase, Stripe. Every project is fast, optimized and tailored to your business.",
+    "role": "Web Developer and AI Solutions Architect | Brussels, Belgium",
+    "text": "I'm Viktor Seto – a web developer and AI Solutions Architect based in Brussels, Belgium. I build websites using modern technologies: Next.js, React, TypeScript, Tailwind CSS, Supabase, Stripe. Every project is fast, search-optimized and tailored to a specific business goal. I work with clients in Lithuania, Belgium and worldwide.",
     "stat1": "10+",
     "stat1_label": "Projects built",
     "stat2": "3-5",
     "stat2_label": "Days delivery",
     "stat3": "3",
-    "stat3_label": "Service types"
+    "stat3_label": "Service types",
+    "credentials_title": "Technologies and skills",
+    "credentials": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "Stripe",
+      "PostgreSQL",
+      "AI integrations"
+    ],
+    "why_title": "Why choose SiteStudio?",
+    "why_points": [
+      "Every project is tailored to a specific business goal, not a generic template.",
+      "Modern code, fast loading and SEO optimization from day one.",
+      "Clear communication, transparent timelines and fast delivery."
+    ]
   },
   "contact": {
     "title": "Get in touch",
@@ -92,5 +140,27 @@
     "policy": "Privacy Policy",
     "accept": "Accept",
     "decline": "Decline"
+  },
+  "privacy": {
+    "title": "Privacy Policy",
+    "intro": "This privacy policy explains how SiteStudio collects, uses and protects your personal data.",
+    "sections": [
+      {
+        "title": "Information we collect",
+        "content": "The contact form asks for your name, email and message. This data is used only to respond to your inquiry. We also use cookies to ensure the website functions properly."
+      },
+      {
+        "title": "How we use your information",
+        "content": "Your data is used only for project communication. We do not share it with third parties except for technical service providers (email delivery)."
+      },
+      {
+        "title": "Cookies",
+        "content": "We use only essential cookies that ensure website functionality. By using the site, you agree to the use of these cookies."
+      },
+      {
+        "title": "Your rights",
+        "content": "You have the right to request deletion, correction or information about how your personal data is used. Contact us at viktor@sitestudio.lt."
+      }
+    ]
   }
 }

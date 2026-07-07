@@ -2,6 +2,7 @@
 
 import { useEffect, useRef, useState } from "react";
 import { useLocale, useTranslations } from "next-intl";
+import Image from "next/image";
 import { projects } from "@/lib/portfolio";
 import TiltCard from "@/components/ui/TiltCard";
 
@@ -74,14 +75,17 @@ export default function Portfolio() {
                       : "border-gray-200 opacity-60 scale-95"
                   }`}
                 >
-                  <div className="aspect-video overflow-hidden bg-gray-100">
-                    <img
+                  <div className="relative aspect-video overflow-hidden bg-gray-100">
+                    <Image
                       ref={imgRef as React.RefObject<HTMLImageElement>}
                       src={`https://s0.wp.com/mshots/v1/${encodeURIComponent(project.link)}?w=600&h=400`}
-                      alt={project.title}
-                      className="h-full w-full object-cover"
+                      alt={`${project.title} – ${project.type[localeKey]} preview`}
+                      fill
+                      sizes="(max-width: 640px) 100vw, (max-width: 1024px) 50vw, 33vw"
+                      className="object-cover"
                       style={{ transition: "transform 0.15s ease-out" }}
-                      loading="lazy"
+                      loading={idx === 0 ? "eager" : "lazy"}
+                      unoptimized
                     />
                   </div>
                   <div className="p-4">
@@ -118,7 +122,7 @@ export default function Portfolio() {
             <button
               onClick={prev}
               className="rounded-full border border-gray-300 p-2 hover:border-blue-400 hover:text-blue-600 transition"
-              aria-label="Previous"
+              aria-label="Previous project"
             >
               ←
             </button>
@@ -130,13 +134,15 @@ export default function Portfolio() {
                   className={`h-2 rounded-full transition-all ${
                     i === current ? "w-6 bg-blue-600" : "w-2 bg-gray-300"
                   }`}
+                  aria-label={`Go to project ${i + 1}`}
+                  aria-current={i === current ? "true" : undefined}
                 />
               ))}
             </div>
             <button
               onClick={next}
               className="rounded-full border border-gray-300 p-2 hover:border-blue-400 hover:text-blue-600 transition"
-              aria-label="Next"
+              aria-label="Next project"
             >
               →
             </button>

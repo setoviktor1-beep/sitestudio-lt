@@ -37,7 +37,7 @@
     "popular": "Populiariausia",
     "cta": "Susisiekti dėl kainos",
     "p1_name": "Landing Page",
-    "p1_price": "",
+    "p1_price": "nuo €299",
     "p1_features": [
       "Vienas puslapis",
       "Kontaktų forma",
@@ -46,16 +46,16 @@
       "Pristatymas per 3-5 d.d."
     ],
     "p2_name": "Verslo svetainė",
-    "p2_price": "",
+    "p2_price": "nuo €599",
     "p2_features": [
       "Iki 6 puslapių",
       "Admin turinio valdymas",
-      "Blog (optional)",
+      "Blog (pasirinktinai)",
       "SEO optimizacija",
       "Pristatymas per 7-10 d.d."
     ],
     "p3_name": "Web Aplikacija",
-    "p3_price": "",
+    "p3_price": "nuo €1,499",
     "p3_features": [
       "Vartotojų sistema",
       "Duomenų bazė (Supabase)",
@@ -64,15 +64,63 @@
       "Pristatymas per 14-21 d.d."
     ]
   },
+  "faq": {
+    "title": "Dažniausi klausimai",
+    "subtitle": "Atsakymai į klausimus apie svetainių kūrimą ir bendradarbiavimą",
+    "items": [
+      {
+        "q": "Kiek kainuoja sukurti svetainę?",
+        "a": "Landing page kaina prasideda nuo €299, verslo svetainė – nuo €599, o sudėtingesnė web aplikacija – nuo €1,499. Galutinė kaina priklauso nuo funkcijų, dizaino sudėtingumo ir terminų."
+      },
+      {
+        "q": "Per kiek laiko sukursite svetainę?",
+        "a": "Paprastą landing page sukuriu per 3-5 darbo dienas, verslo svetainę – per 7-10 dienų, o web aplikaciją – per 14-21 darbo dieną. Terminas priklauso nuo projekto apimties."
+      },
+      {
+        "q": "Kokias technologijas naudojate?",
+        "a": "Kuriu modernias svetaines naudodamas Next.js, React, TypeScript, Tailwind CSS. Backend'ui naudoju Supabase, o mokėjimams – Stripe. Tai užtikrina greitį, saugumą ir SEO."
+      },
+      {
+        "q": "Ar svetainė bus pritaikyta telefonams?",
+        "a": "Taip, kiekviena kuriama svetainė yra visiškai responsyvi – prisitaiko prie telefonų, planšečių ir kompiuterių ekranų. Tai yra būtina ir SEO, ir naudotojų patirčiai."
+      },
+      {
+        "q": "Ar svetainė bus optimizuota Google paieškai?",
+        "a": "Taip, kiekviename projekte įgyvendinu SEO pagrindus: greitį, meta žymes, semantinį HTML, struktūrizuotus duomenis ir mobiliąją versiją. Papildomai galiu atlikti išsamų SEO auditą."
+      },
+      {
+        "q": "Kur esate įsikūrę ir su kokiais klientais dirbate?",
+        "a": "Esu įsikūręs Briuselyje, Belgijoje, bet dirbu su klientais iš Lietuvos, Belgijos ir viso pasaulio. Visas bendravimas vyksta el. paštu, vaizdo skambučiais ir projektų valdymo įrankiais."
+      }
+    ]
+  },
   "about": {
     "title": "Apie mane",
-    "text": "Esu Viktor - web kūrėjas ir AI sprendimų architektas iš Briuselio. Kuriu svetaines naudodamas moderniausias technologijas: Next.js, Supabase, Stripe. Kiekvienas projektas - greitas, optimizuotas ir pritaikytas jūsų verslui.",
+    "role": "Web kūrėjas ir AI sprendimų architektas | Briuselis, Belgija",
+    "text": "Esu Viktor Seto – web kūrėjas ir AI sprendimų architektas iš Briuselio, Belgijos. Kuriu svetaines naudodamas moderniausias technologijas: Next.js, React, TypeScript, Tailwind CSS, Supabase, Stripe. Kiekvienas projektas yra greitas, optimizuotas paieškai ir pritaikytas konkrečiam verslo tikslui. Dirbu su klientais Lietuvoje, Belgijoje ir visame pasaulyje.",
     "stat1": "10+",
     "stat1_label": "Sukurtų projektų",
     "stat2": "3-5",
     "stat2_label": "Dienų pristatymas",
     "stat3": "3",
-    "stat3_label": "Paslaugų tipai"
+    "stat3_label": "Paslaugų tipai",
+    "credentials_title": "Technologijos ir kompetencijos",
+    "credentials": [
+      "Next.js",
+      "React",
+      "TypeScript",
+      "Tailwind CSS",
+      "Supabase",
+      "Stripe",
+      "PostgreSQL",
+      "AI integracijos"
+    ],
+    "why_title": "Kodėl rinktis SiteStudio?",
+    "why_points": [
+      "Kiekvienas projektas pritaikytas konkrečiam verslo tikslui, o ne šabloninis sprendimas.",
+      "Modernus kodas, greitas įkėlimas ir SEO optimizacija nuo pirmos dienos.",
+      "Aiškus bendradarbiavimas, skaidrūs terminai ir greitas pristatymas."
+    ]
   },
   "contact": {
     "title": "Susisiekite",
@@ -92,5 +140,27 @@
     "policy": "Privatumo politika",
     "accept": "Sutinku",
     "decline": "Atmesti"
+  },
+  "privacy": {
+    "title": "Privatumo politika",
+    "intro": "Ši privatumo politika paaiškina, kaip SiteStudio renka, naudoja ir saugo jūsų asmens duomenis.",
+    "sections": [
+      {
+        "title": "Kokią informaciją renkame",
+        "content": "Kontaktų formoje prašome jūsų vardo, el. pašto ir žinutės. Šie duomenys naudojami tik atsakyti į jūsų užklausą. Taip pat naudojame slapukus svetainės veikimui užtikrinti."
+      },
+      {
+        "title": "Kaip naudojame informaciją",
+        "content": "Jūsų pateikti duomenys naudojami tik komunikacijai dėl projekto. Nesidalijame jais su trečiosiomis šalimis, išskyrus techninius paslaugų teikėjus (el. pašto siuntimui)."
+      },
+      {
+        "title": "Slapukai",
+        "content": "Naudojame tik būtinus slapukus, kurie užtikrina svetainės funkcionalumą. Naudodamiesi svetaine sutinkate su šių slapukų naudojimu."
+      },
+      {
+        "title": "Jūsų teisės",
+        "content": "Turite teisę prašyti ištrinti savo asmens duomenis, juos pataisyti arba gauti informaciją, kaip jie yra naudojami. Kreipkitės el. paštu viktor@sitestudio.lt."
+      }
+    ]
   }
 }
