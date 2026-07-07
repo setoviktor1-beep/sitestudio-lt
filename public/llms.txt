@@ -31,6 +31,14 @@ See `/pricing.md` for detailed pricing.
 
 ## Important pages
 
-- Home: https://sitestudio.lt/lt (Lithuanian)
-- Home EN: https://sitestudio.lt/en (English)
-- Privacy Policy: https://sitestudio.lt/lt/privacy-policy
+- Home LT: https://sitestudio.lt/lt
+- Home EN: https://sitestudio.lt/en
+- Services: https://sitestudio.lt/lt#services
+- Portfolio: https://sitestudio.lt/lt#portfolio
+- About: https://sitestudio.lt/lt#about
+- FAQ: https://sitestudio.lt/lt#faq
+- Contact: https://sitestudio.lt/lt#contact
+- Pricing: https://sitestudio.lt/pricing.md
+- Services structured: https://sitestudio.lt/services.md
+- Privacy Policy LT: https://sitestudio.lt/lt/privacy-policy
+- Privacy Policy EN: https://sitestudio.lt/en/privacy-policy
