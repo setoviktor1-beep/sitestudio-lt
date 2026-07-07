@@ -42,3 +42,28 @@ See `/pricing.md` for detailed pricing.
 - Services structured: https://sitestudio.lt/services.md
 - Privacy Policy LT: https://sitestudio.lt/lt/privacy-policy
 - Privacy Policy EN: https://sitestudio.lt/en/privacy-policy
+
+## Service pages
+
+- Landing Page LT: https://sitestudio.lt/lt/services/landing-page
+- Landing Page EN: https://sitestudio.lt/en/services/landing-page
+- Business Website LT: https://sitestudio.lt/lt/services/business-website
+- Business Website EN: https://sitestudio.lt/en/services/business-website
+- Web Application LT: https://sitestudio.lt/lt/services/web-application
+- Web Application EN: https://sitestudio.lt/en/services/web-application
+
+## Portfolio case studies
+
+- ValueCraft LT: https://sitestudio.lt/lt/portfolio/valuecraft
+- ValueCraft EN: https://sitestudio.lt/en/portfolio/valuecraft
+- London Handyman Pro LT: https://sitestudio.lt/lt/portfolio/london-handyman-pro
+- London Handyman Pro EN: https://sitestudio.lt/en/portfolio/london-handyman-pro
+- AI Audit SaaS LT: https://sitestudio.lt/lt/portfolio/ai-audit-saas
+- AI Audit SaaS EN: https://sitestudio.lt/en/portfolio/ai-audit-saas
+
+## Blog articles
+
+- Next.js vs WordPress LT: https://sitestudio.lt/lt/blog/nextjs-vs-wordpress
+- Next.js vs WordPress EN: https://sitestudio.lt/en/blog/nextjs-vs-wordpress
+- Kiek kainuoja svetainė LT: https://sitestudio.lt/lt/blog/kiek-kainuoja-svetaine
+- How much does a website cost EN: https://sitestudio.lt/en/blog/how-much-does-website-cost

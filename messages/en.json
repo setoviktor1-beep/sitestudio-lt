@@ -185,5 +185,212 @@
         "content": "You have the right to request deletion, correction or information about how your personal data is used. Contact us at viktor@sitestudio.lt."
       }
     ]
+  },
+  "servicePages": {
+    "landing-page": {
+      "metaTitle": "Landing Page Design & Development | SiteStudio",
+      "metaDescription": "Professional landing page development for businesses in Lithuania, Belgium and worldwide. Single-page site with contact form, mobile version and SEO basics. From €299.",
+      "title": "Landing Page Design & Development",
+      "lead": "A landing page is a single-page website built for one specific purpose: turning a visitor into a customer. Whether you are launching a new product, collecting leads, or running a limited-time promotion, a clearly structured page builds trust and drives action. I create fast, beautiful and technically solid landing pages that look great on mobile and deliver measurable results.",
+      "price": "from €299",
+      "delivery": "Delivered in 3-5 business days",
+      "forWhom": "This solution is ideal for startups, solo professionals, beauty and wellness providers, real estate agents, consultants, and any business that needs to present one focused offer and capture inquiries quickly.",
+      "includes": [
+        "Unique single-page design aligned with your brand",
+        "Clear offer presentation and smooth user journey",
+        "Contact form with email notifications",
+        "Fully responsive layout for phones and tablets",
+        "Basic SEO: meta tags, speed, semantic HTML",
+        "Social Open Graph tags and sharing preview",
+        "Launch assistance to get the page live"
+      ],
+      "process": [
+        {
+          "step": "1. Goal discovery",
+          "desc": "Through a short call we clarify what you are selling, who the message is for, and the desired visitor action."
+        },
+        {
+          "step": "2. Proposal and structure",
+          "desc": "I prepare a commercial proposal and page structure: headline, benefits, offer, social proof, and contact section."
+        },
+        {
+          "step": "3. Design approval",
+          "desc": "I create a visual mockup. You request revisions until the design fully matches your expectations."
+        },
+        {
+          "step": "4. Development and testing",
+          "desc": "I code the page with modern technologies and test speed, mobile layout, and form functionality."
+        },
+        {
+          "step": "5. Launch and handover",
+          "desc": "The site goes live, the domain is connected, and you receive access instructions."
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vercel",
+        "Nodemailer"
+      ],
+      "faq": [
+        {
+          "q": "Is a landing page right for my business?",
+          "a": "If you have one main offer and want visitors to fill a form, call, or buy, a landing page is one of the most effective solutions."
+        },
+        {
+          "q": "Can I update the landing page content myself?",
+          "a": "In the standard package content is prepared before launch. If you need frequent updates, I recommend a business website with a content admin panel."
+        },
+        {
+          "q": "How long does it take to build a landing page?",
+          "a": "Typically 3-5 business days, provided all texts and brand materials are ready."
+        },
+        {
+          "q": "Are domain and hosting included in the price?",
+          "a": "No, domain and hosting are purchased separately. I can help you choose the right hosting and launch the site at no extra cost."
+        }
+      ],
+      "cta": "Get a landing page quote"
+    },
+    "business-website": {
+      "metaTitle": "Business Website Development | SiteStudio",
+      "metaDescription": "Modern 4-6 page business website with admin panel and SEO optimization. Working with clients in Lithuania, Belgium and worldwide. From €599.",
+      "title": "Business Website Development",
+      "lead": "A business website is your digital office where visitors learn about your services, team, projects, and how to contact you. I build 4-6 page websites that not only look professional but are also easy to manage, fast to load, and ready for Google search. Every project is tailored to a specific business rather than pulled from a template.",
+      "price": "from €599",
+      "delivery": "Delivered in 7-10 business days",
+      "forWhom": "This solution fits small and medium-sized companies, legal, finance, beauty, construction, real estate, and consulting service providers who want a convincing online presence and the ability to update content themselves.",
+      "includes": [
+        "4-6 unique pages tailored to your business needs",
+        "Admin dashboard for editing content",
+        "Contact forms and social media integration",
+        "Services, projects, or team presentation sections",
+        "Full SEO optimization: structure, meta tags, speed",
+        "Mobile and tablet optimization",
+        "Optional blog module",
+        "Post-launch guide for managing the site"
+      ],
+      "process": [
+        {
+          "step": "1. Strategy call",
+          "desc": "We clarify business goals, target audience, competitors, and what makes your offer different."
+        },
+        {
+          "step": "2. Site structure and content",
+          "desc": "We define the page map, content structure, and visuals that best represent your brand."
+        },
+        {
+          "step": "3. Design creation",
+          "desc": "I create the visual style and key page mockups. We revise until the design feels truly yours."
+        },
+        {
+          "step": "4. Development and database",
+          "desc": "I code the site with admin management, connect forms, and optimize performance and security."
+        },
+        {
+          "step": "5. Testing and launch",
+          "desc": "I check functionality across devices, deploy the site, and hand over access."
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "PostgreSQL"
+      ],
+      "faq": [
+        {
+          "q": "Does a business website include an admin panel?",
+          "a": "Yes, the standard package includes an admin dashboard where you can edit page content, update images, and manage blog posts."
+        },
+        {
+          "q": "How many pages can I have?",
+          "a": "The standard business website covers 4-6 pages. More pages can be added and priced according to scope."
+        },
+        {
+          "q": "Can I add a blog or news section?",
+          "a": "Yes, a blog module can be added on request. It is especially useful for SEO and keeping content fresh."
+        },
+        {
+          "q": "Will I be able to manage the site without coding skills?",
+          "a": "Yes, the admin dashboard is simple and intuitive. I provide instructions at launch and remain available for support."
+        }
+      ],
+      "cta": "Get a business website quote"
+    },
+    "web-application": {
+      "metaTitle": "Web Application Development | SiteStudio",
+      "metaDescription": "Custom web applications with user accounts, database, and payments. Next.js, Supabase, Stripe. Working with startups and businesses in Lithuania, Belgium and worldwide. From €1,499.",
+      "title": "Web Application Development",
+      "lead": "A web application is an interactive solution where users can register, manage data, make payments, and access unique features. I build SaaS platforms, internal business systems, dashboards, and MVP products using modern technologies: Next.js, Supabase, and Stripe. Every application is built with security, speed, and future scalability in mind.",
+      "price": "from €1,499",
+      "delivery": "Delivered in 14-21 business days",
+      "forWhom": "This solution is for startups building new digital products, companies looking to automate internal processes, and businesses planning subscription or paid-access platforms.",
+      "includes": [
+        "User registration, login, and account management",
+        "Database and server logic with Supabase",
+        "Payment integration through Stripe",
+        "Personal user dashboard or admin panel",
+        "API integrations and third-party services",
+        "Security basics: roles, sessions, data validation",
+        "Responsive design for desktop and mobile devices",
+        "Technical documentation and launch support"
+      ],
+      "process": [
+        {
+          "step": "1. Product discovery",
+          "desc": "We clarify the problem the app solves, core features, business model, and technical requirements."
+        },
+        {
+          "step": "2. Architecture and prototype",
+          "desc": "I create a data model, user flows, and a simple prototype so you can see the key screens."
+        },
+        {
+          "step": "3. Design and experience",
+          "desc": "I design the full interface with usability, accessibility, and mobile use in mind."
+        },
+        {
+          "step": "4. Development and testing",
+          "desc": "I build the frontend, backend, authentication, and payments, then test functionality, security, and load."
+        },
+        {
+          "step": "5. Launch and ongoing care",
+          "desc": "The app is deployed to production, monitoring is connected, and we discuss ongoing support."
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "PostgreSQL",
+        "Stripe",
+        "Prisma"
+      ],
+      "faq": [
+        {
+          "q": "How is a web application different from a business website?",
+          "a": "A web application has user accounts, interactive functionality, a database, and often payments. A business website is mainly informational and promotional."
+        },
+        {
+          "q": "Can you build just an MVP?",
+          "a": "Yes, I often work with startups on the first product version. The MVP includes the core features needed to validate the idea."
+        },
+        {
+          "q": "How is security handled?",
+          "a": "I use secure authentication, server-side data validation, query protection, and best practices for safeguarding user data."
+        },
+        {
+          "q": "Can third-party APIs be integrated?",
+          "a": "Yes, I can integrate payments, email, calendars, AI APIs, and other services depending on project needs."
+        }
+      ],
+      "cta": "Get a web application quote"
+    }
   }
 }

@@ -185,5 +185,212 @@
         "content": "Turite teisę prašyti ištrinti savo asmens duomenis, juos pataisyti arba gauti informaciją, kaip jie yra naudojami. Kreipkitės el. paštu viktor@sitestudio.lt."
       }
     ]
+  },
+  "servicePages": {
+    "landing-page": {
+      "metaTitle": "Landing Page kūrimas | SiteStudio",
+      "metaDescription": "Profesionalus landing page kūrimas verslui Lietuvoje ir Belgijoje. Vieno puslapio svetainė su kontaktų forma, mobilia versija ir SEO pagrindais. Kaina nuo €299.",
+      "title": "Landing Page kūrimas",
+      "lead": "Landing page – tai vieno puslapio svetainė, sukurta vienam konkrečiam tikslui: konvertuoti lankytoją į klientą. Nesvarbu, ar paleidžiate naują produktą, renkate užklausas, ar skelbiate laikinas akcijas – aiškiai struktūrizuotas puslapis padidina pasitikėjimą ir skatina veiksmą. Kuriu greitus, estetiškus ir techniškai tvarkingus landing page'us, kurie atrodo puikiai telefone ir generuoja rezultatus.",
+      "price": "nuo €299",
+      "delivery": "Pristatymas per 3-5 darbo dienas",
+      "forWhom": "Šis sprendimas idealiai turi startuoliams, individualią veiklą vykdantiems specialistams, grožio ir sveikatos srities paslaugų teikėjams, nekilnojamojo turto agentams, konsultantams bei bet kuriam verslui, kuriam reikia greitai pristatyti vieną pasiūlymą ir gauti užklausų.",
+      "includes": [
+        "Unikalus vieno puslapio dizainas pagal jūsų prekės ženklą",
+        "Aiškus pasiūlymo pristatymas ir sklandus vartotojo kelias",
+        "Kontaktų forma su el. pašto perspėjimais",
+        "Pilnai responsyvus išdėstymas telefonams ir planšetėms",
+        "Pagrindinė SEO optimizacija: meta žymės, greitis, semantinis HTML",
+        "Socialinių tinklų Open Graph žymės ir dalijimosi peržiūra",
+        "Pagalba paleidžiant svetainę internete"
+      ],
+      "process": [
+        {
+          "step": "1. Tikslų aptarimas",
+          "desc": "Per trumpą pokalbį išsiaiškiname, ką parduodate, kam skirta žinutė ir koks norimas lankytojo veiksmas."
+        },
+        {
+          "step": "2. Pasiūlymas ir struktūra",
+          "desc": "Parengiu komercinį pasiūlymą bei puslapio struktūrą: antraštę, privalumus, pasiūlymą, socialinį įrodymą ir kontaktus."
+        },
+        {
+          "step": "3. Dizaino suderinimas",
+          "desc": "Sukuriu vizualinį maketą. Atliekate korekcijas, kol dizainas pilnai atitinka jūsų lūkesčius."
+        },
+        {
+          "step": "4. Programavimas ir testavimas",
+          "desc": "Koduoju puslapį moderniomis technologijomis, testuoju greitį, mobiliąją versiją ir formų veikimą."
+        },
+        {
+          "step": "5. Paleidimas ir rankos perdavimas",
+          "desc": "Svetainė patalpinama internete, prijungiamas domenas, o jūs gaunate prieigos instrukcijas."
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Vercel",
+        "Nodemailer"
+      ],
+      "faq": [
+        {
+          "q": "Ar landing page tinka mano verslui?",
+          "a": "Jei turite vieną pagrindinį pasiūlymą ir norite, kad lankytojai užpildytų formą, paskambintų arba įsigytų – landing page yra vienas efektyviausių sprendimų."
+        },
+        {
+          "q": "Ar galiu pats keisti landing page turinį?",
+          "a": "Pagrindiniame pakete turinys ruošiamas prieš paleidžiant. Jei reikia dažnai atnaujinti turinį, rekomenduoju verslo svetainę su admin valdymu."
+        },
+        {
+          "q": "Kiek laiko trunka sukurti landing page?",
+          "a": "Įprastai landing page sukuriu per 3-5 darbo dienas, jei turimi visi tekstai ir prekės ženklo medžiaga."
+        },
+        {
+          "q": "Ar į kainą įskaičiuotas domenas ir hostingas?",
+          "a": "Ne, domenas ir hostingas perkami atskirai. Galiu padėti parinkti tinkamą hostingą ir paleisti svetainę be papildomo mokesčio."
+        }
+      ],
+      "cta": "Gauti landing page pasiūlymą"
+    },
+    "business-website": {
+      "metaTitle": "Verslo svetainės kūrimas | SiteStudio",
+      "metaDescription": "Moderni verslo svetainė su 4-6 puslapiais, admin valdymu ir SEO optimizacija. Dirbu su klientais Lietuvoje, Belgijoje ir visame pasaulyje. Kaina nuo €599.",
+      "title": "Verslo svetainės kūrimas",
+      "lead": "Verslo svetainė – tai jūsų skaitmeninis biuras, kuriame lankytojai susipažįsta su paslaugomis, komanda, darbais ir susisiekia su jumis. Kuriu 4-6 puslapių svetaines, kurios ne tik atrodo profesionaliai, bet ir yra lengvai valdomos, greitai įkeliamos ir paruoštos Google paieškai. Kiekvienas projektas pritaikomas konkrečiam verslui, o ne gabenamas iš šablono.",
+      "price": "nuo €599",
+      "delivery": "Pristatymas per 7-10 darbo dienų",
+      "forWhom": "Šis sprendimas puikiai turi smulkioms ir vidutinėms įmonėms, teisinių, finansinių, grožio, statybos, NT ir konsultavimo paslaugų teikėjams, kurie nori įtikinamo internetinio presence ir galimybės patiems atnaujinti turinį.",
+      "includes": [
+        "4-6 unikalūs puslapiai pagal jūsų verslo poreikius",
+        "Admin valdymo skydelis turinio redagavimui",
+        "Kontaktų formos ir socialinių tinklų integracija",
+        "Paslaugų, projektų ar komandos pristatymo skiltys",
+        "Pilna SEO optimizacija: struktūra, meta žymės, greitis",
+        "Mobilioji versija ir planšetės optimizavimas",
+        "Blog modulis pasirinktinai",
+        "Instrukcija, kaip valdyti svetainę po paleidimo"
+      ],
+      "process": [
+        {
+          "step": "1. Strateginis pokalbis",
+          "desc": "Išsiaiškiname verslo tikslus, tikslinę auditoriją, konkurentus ir tai, kuo skiriasi jūsų pasiūlymas."
+        },
+        {
+          "step": "2. Svetainės struktūra ir turinys",
+          "desc": "Sudarome puslapių žemėlapį, paruošiame tekstų struktūrą ir aptariame, kokie vaizdai geriausiai atspindės prekės ženklą."
+        },
+        {
+          "step": "3. Dizaino kūrimas",
+          "desc": "Sukuriu vizualinį stilių ir pagrindinius puslapių maketus. Koreguojame, kol dizainas tampa jūsų."
+        },
+        {
+          "step": "4. Programavimas ir duomenų bazė",
+          "desc": "Koduoju svetainę su admin valdymu, prijungiu formas, optimizuoju greitį ir saugumą."
+        },
+        {
+          "step": "5. Testavimas ir paleidimas",
+          "desc": "Patikrinu veikimą visuose įrenginiuose, paleidžiu svetainę internete ir perduodu prieigą."
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "PostgreSQL"
+      ],
+      "faq": [
+        {
+          "q": "Ar verslo svetainė turi admin valdymą?",
+          "a": "Taip, standartiniame pakete yra admin skydelis, kuriame galite redaguoti puslapių turinį, keisti nuotraukas ir valdyti blog įrašus."
+        },
+        {
+          "q": "Kiek puslapių galiu turėti?",
+          "a": "Standartinė verslo svetainė apima 4-6 puslapius. Jei reikia daugiau, kaina koreguojama pagal apimtį."
+        },
+        {
+          "q": "Ar galima pridėti blogą ar naujienų skiltį?",
+          "a": "Taip, blog modulis gali būti įdiegtas pagal poreikį. Tai ypač naudinga SEO ir nuolatiniam turinio atnaujinimui."
+        },
+        {
+          "q": "Ar svetainę galėsiu valdyti be programavimo žinių?",
+          "a": "Taip, admin valdymas yra paprastas ir intuityvus. Paleidimo metu pateikiu instrukciją ir esu pasiekiamas pagalbai."
+        }
+      ],
+      "cta": "Gauti verslo svetainės pasiūlymą"
+    },
+    "web-application": {
+      "metaTitle": "Web aplikacijų kūrimas | SiteStudio",
+      "metaDescription": "Sudėtingos web aplikacijos su vartotojų sistema, duomenų baze ir mokėjimais. Next.js, Supabase, Stripe. Dirbu su startuoliais ir verslu Lietuvoje, Belgijoje ir visame pasaulyje. Kaina nuo €1,499.",
+      "title": "Web aplikacijų kūrimas",
+      "lead": "Web aplikacija – tai interaktyvus sprendimas, kuriame vartotojai gali registruotis, valdyti duomenis, atlikti mokėjimus ir naudotis unikaliomis funkcijomis. Kuriu SaaS platformas, vidines verslo sistemas, dashboard'us ir MVP produktus naudodamas modernias technologijas: Next.js, Supabase ir Stripe. Kiekviena aplikacija kuriama atsižvelgiant į saugumą, greitį ir galimybę ateityje plėsti funkcionalumą.",
+      "price": "nuo €1,499",
+      "delivery": "Pristatymas per 14-21 darbo dieną",
+      "forWhom": "Šis sprendimas skirtas startuoliams, kuriantiems naujus skaitmeninius produktus, įmonėms, norinčioms automatizuoti vidinius procesus, bei verslams, kurie planuoja prenumeratos arba mokamo prieigos modelio platformas.",
+      "includes": [
+        "Vartotojų registracija, prisijungimas ir paskyrų valdymas",
+        "Duomenų bazė ir serverinė logika su Supabase",
+        "Mokėjimų integracija per Stripe",
+        "Asmeninis vartotojo dashboard arba administravimo skydelis",
+        "API integracijos ir trečiųjų šalių paslaugų prijungimas",
+        "Saugumo pagrindai: rolės, sesijos, duomenų validacija",
+        "Responsyvus dizainas darbalaukiui ir mobiliesiems įrenginiams",
+        "Techninė dokumentacija ir paleidimo palaikymas"
+      ],
+      "process": [
+        {
+          "step": "1. Produkto aptarimas",
+          "desc": "Išsiaiškiname problemą, kurią sprendžia aplikacija, pagrindines funkcijas, verslo modelį ir techninius reikalavimus."
+        },
+        {
+          "step": "2. Architektūra ir prototipas",
+          "desc": "Sukuriu duomenų modelį, vartotojo srautus ir paprastą prototipą, kad vizualiai pamatytumėte pagrindinius ekranus."
+        },
+        {
+          "step": "3. Dizainas ir patirtis",
+          "desc": "Kuriu pilną dizainą, atsižvelgdamas į naudojimo paprastumą, prieinamumą ir mobilųjį naudojimą."
+        },
+        {
+          "step": "4. Programavimas ir testavimas",
+          "desc": "Vystau frontend, backend, autentifikaciją ir mokėjimus. Testuoju funkcionalumą, saugumą ir apkrovą."
+        },
+        {
+          "step": "5. Paleidimas ir tolesnė priežiūra",
+          "desc": "Aplikacija patalpinama į gamybinę aplinką, prijungiami monitoringo įrankiai ir aptariamas tolesnis palaikymas."
+        }
+      ],
+      "technologies": [
+        "Next.js",
+        "React",
+        "TypeScript",
+        "Tailwind CSS",
+        "Supabase",
+        "PostgreSQL",
+        "Stripe",
+        "Prisma"
+      ],
+      "faq": [
+        {
+          "q": "Kuo web aplikacija skiriasi nuo verslo svetainės?",
+          "a": "Web aplikacija turi vartotojų paskyras, interaktyvų funkcionalumą, duomenų bazę ir dažnai mokėjimus. Verslo svetainė daugiau informacinis ir pristatymo pobūdžio."
+        },
+        {
+          "q": "Ar galite sukurti tik MVP?",
+          "a": "Taip, dažnai dirbu su startuoliais, kuriantis pirmąjį produkto variantą. MVP apima pagrindines funkcijas, reikalingas patikrinti idėją."
+        },
+        {
+          "q": "Kaip užtikrinamas saugumas?",
+          "a": "Naudoju saugios autentifikacijos mechanizmus, serverinę duomenų validaciją, užklausų apsaugą ir gerąsias praktikas saugant vartotojų duomenis."
+        },
+        {
+          "q": "Ar galima integruoti trečiųjų šalių API?",
+          "a": "Taip, galiu integruoti mokėjimus, el. paštą, kalendorius, dirbtinio intelekto API ir kitas paslaugas pagal projekto poreikius."
+        }
+      ],
+      "cta": "Gauti web aplikacijos pasiūlymą"
+    }
   }
 }
