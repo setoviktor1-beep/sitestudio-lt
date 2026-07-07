@@ -27,6 +27,30 @@ export default function sitemap(): MetadataRoute.Sitemap {
           en: "https://sitestudio.lt/en"
         }
       }
+    },
+    {
+      url: "https://sitestudio.lt/lt/privacy-policy",
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.3,
+      alternates: {
+        languages: {
+          lt: "https://sitestudio.lt/lt/privacy-policy",
+          en: "https://sitestudio.lt/en/privacy-policy"
+        }
+      }
+    },
+    {
+      url: "https://sitestudio.lt/en/privacy-policy",
+      lastModified,
+      changeFrequency: "yearly",
+      priority: 0.3,
+      alternates: {
+        languages: {
+          lt: "https://sitestudio.lt/lt/privacy-policy",
+          en: "https://sitestudio.lt/en/privacy-policy"
+        }
+      }
     }
   ];
 }

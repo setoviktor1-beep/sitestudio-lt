@@ -8,10 +8,17 @@
     "cta": "Gauti pasiūlymą"
   },
   "hero": {
+    "badge": "Web Development",
     "h1": "Kuriu svetaines, kurios dirba už jus",
     "subtitle": "Landing page'ai, verslo svetainės ir web aplikacijos. Greitas pristatymas, modernus dizainas, SEO pagrindai.",
     "cta": "Gauti pasiūlymą",
-    "cta2": "Peržiūrėti darbus"
+    "cta2": "Peržiūrėti darbus",
+    "stat1": "13+",
+    "stat1_label": "Projektų",
+    "stat2": "3-5d",
+    "stat2_label": "Pristatymas",
+    "stat3": "100%",
+    "stat3_label": "Kokybė"
   },
   "services": {
     "title": "Paslaugos",
@@ -91,6 +98,22 @@
       {
         "q": "Kur esate įsikūrę ir su kokiais klientais dirbate?",
         "a": "Esu įsikūręs Briuselyje, Belgijoje, bet dirbu su klientais iš Lietuvos, Belgijos ir viso pasaulio. Visas bendravimas vyksta el. paštu, vaizdo skambučiais ir projektų valdymo įrankiais."
+      },
+      {
+        "q": "Ar reikia turėti savo domeną ir hostingą?",
+        "a": "Nebūtina. Galiu padėti užregistruoti domeną ir parinkti hostingą pagal jūsų poreikius. Dažniausiai rekomenduoju Vercel arba similar sprendimus greitam ir saugiam veikimui."
+      },
+      {
+        "q": "Koks yra svetainės kūrimo procesas?",
+        "a": "Pradedame nuo trumpo pokalbio, kuriame išsiaiškiname tikslus. Tuomet parengiu pasiūlymą, sukuriu dizainą, patvirtinu jį su jumis, programuoju svetainę ir paleidžiu. Viso proceso metu palaikau glaudų ryšį."
+      },
+      {
+        "q": "Ar galima keisti svetainės turinį po paleidimo?",
+        "a": "Taip, verslo svetainių ir web aplikacijų paketuose numatytas admin valdymas, kuriame patys galėsite redaguoti turinį. Jei reikia, teikiu ir papildomą techninę pagalbą."
+      },
+      {
+        "q": "Kiek korekcijų galima atlikti kūrimo metu?",
+        "a": "Kiekviename etape numatyta iki 3 nemokamų korekcijų. Tai leidžia suderinti dizainą ir funkcionalumą taip, kad galutinis rezultatas pilnai atitiktų jūsų lūkesčius."
       }
     ]
   },

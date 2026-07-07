@@ -33,9 +33,9 @@ const localizedMetadata: Record<
   }
 > = {
   lt: {
-    title: "SiteStudio - Profesionalios svetainės verslui",
+    title: "SiteStudio | Svetainių kūrimas Briuselyje ir Lietuvoje",
     description:
-      "Kuriu landing page, verslo svetaines ir web aplikacijas. Greitas pristatymas, modernus dizainas, SEO pagrindai. Dirbu su klientais Lietuvoje ir Belgijoje.",
+      "Kuriu landing page, verslo svetaines ir web aplikacijas. Greitas pristatymas, modernus dizainas, SEO pagrindai. Dirbu su klientais Lietuvoje ir Belgijoje. Susisiekite ir gaukite pasiūlymą per 24 val.",
     keywords: [
       "svetainių kūrimas",
       "landing page kūrimas",
@@ -46,16 +46,16 @@ const localizedMetadata: Record<
       "Belgija",
       "Briuselis"
     ],
-    openGraphTitle: "SiteStudio - Profesionalios svetainės verslui",
+    openGraphTitle: "SiteStudio | Svetainių kūrimas Briuselyje ir Lietuvoje",
     openGraphDescription:
-      "Kuriu landing page, verslo svetaines ir web aplikacijas. Greitas pristatymas, modernus dizainas.",
+      "Kuriu landing page, verslo svetaines ir web aplikacijas. Greitas pristatymas, modernus dizainas ir SEO pagrindai verslui.",
     locale: "lt_LT",
     lang: "lt"
   },
   en: {
-    title: "SiteStudio - Professional Websites for Business",
+    title: "SiteStudio | Web Design & Development in Brussels",
     description:
-      "I build landing pages, business websites and web applications. Fast delivery, modern design, SEO fundamentals included. Working with clients in Lithuania, Belgium and worldwide.",
+      "I build landing pages, business websites and web applications. Fast delivery, modern design, SEO fundamentals included. Working with clients in Brussels, Lithuania and worldwide. Request a free quote today.",
     keywords: [
       "website development",
       "landing page design",
@@ -66,9 +66,9 @@ const localizedMetadata: Record<
       "Belgium",
       "Brussels"
     ],
-    openGraphTitle: "SiteStudio - Professional Websites for Business",
+    openGraphTitle: "SiteStudio | Web Design & Development in Brussels",
     openGraphDescription:
-      "Landing pages, business websites and web applications. Fast delivery, modern design, SEO included.",
+      "Landing pages, business websites and web applications. Fast delivery, modern design and SEO fundamentals for your business.",
     locale: "en_US",
     lang: "en"
   }

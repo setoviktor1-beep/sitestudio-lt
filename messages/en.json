@@ -8,10 +8,17 @@
     "cta": "Get a quote"
   },
   "hero": {
+    "badge": "Web Development",
     "h1": "Websites that work for your business",
     "subtitle": "Landing pages, business websites and web applications. Fast delivery, modern design, SEO basics included.",
     "cta": "Get a quote",
-    "cta2": "View portfolio"
+    "cta2": "View portfolio",
+    "stat1": "13+",
+    "stat1_label": "Projects",
+    "stat2": "3-5d",
+    "stat2_label": "Delivery",
+    "stat3": "100%",
+    "stat3_label": "Quality"
   },
   "services": {
     "title": "Services",
@@ -91,6 +98,22 @@
       {
         "q": "Where are you based and who do you work with?",
         "a": "I am based in Brussels, Belgium, and work with clients from Lithuania, Belgium, and worldwide. All communication happens via email, video calls, and project management tools."
+      },
+      {
+        "q": "Do I need my own domain and hosting?",
+        "a": "No. I can help register a domain and choose hosting that fits your needs. I usually recommend Vercel or similar solutions for fast and secure performance."
+      },
+      {
+        "q": "What does the website development process look like?",
+        "a": "We start with a short call to understand your goals. Then I prepare a proposal, design the site, get your approval, develop it and launch it. I keep close communication throughout the process."
+      },
+      {
+        "q": "Can I update the website content after launch?",
+        "a": "Yes. Business website and web application packages include an admin panel where you can edit content yourself. I also offer additional technical support when needed."
+      },
+      {
+        "q": "How many revisions are included?",
+        "a": "Each stage includes up to 3 free revisions. This lets us align the design and functionality so the final result fully matches your expectations."
       }
     ]
   },

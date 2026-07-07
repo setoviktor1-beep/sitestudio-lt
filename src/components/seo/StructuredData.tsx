@@ -58,7 +58,22 @@ export default function StructuredData() {
       "https://www.instagram.com/sitestudio.lt/",
       "https://www.tiktok.com/@sitestudio.lt"
     ],
-    priceRange: "€€"
+    priceRange: "€€",
+    contactPoint: {
+      "@type": "ContactPoint",
+      email: "viktor@sitestudio.lt",
+      contactType: isLT ? "Klientų aptarnavimas" : "Customer service",
+      areaServed: [
+        { "@type": "Country", name: isLT ? "Lietuva" : "Lithuania" },
+        { "@type": "Country", name: isLT ? "Belgija" : "Belgium" }
+      ],
+      availableLanguage: ["Lithuanian", "English"]
+    },
+    geo: {
+      "@type": "GeoCoordinates",
+      latitude: "50.8503",
+      longitude: "4.3517"
+    }
   };
 
   const personSchema = {
@@ -129,6 +144,23 @@ export default function StructuredData() {
         }
       : null;
 
+  const breadcrumbNames = isLT
+    ? ["Paslaugos", "Portfolio", "Apie mane", "DUK", "Kontaktai"]
+    : ["Services", "Portfolio", "About", "FAQ", "Contact"];
+
+  const breadcrumbSchema = {
+    "@context": "https://schema.org",
+    "@type": "BreadcrumbList",
+    itemListElement: ["#services", "#portfolio", "#about", "#faq", "#contact"].map(
+      (hash, index) => ({
+        "@type": "ListItem",
+        position: index + 1,
+        name: breadcrumbNames[index],
+        item: `${pageUrl}${hash}`
+      })
+    )
+  };
+
   const schemas: Record<string, unknown>[] = [
     websiteSchema,
     organizationSchema,
@@ -136,6 +168,7 @@ export default function StructuredData() {
     ...serviceSchemas
   ];
   if (faqSchema) schemas.push(faqSchema);
+  schemas.push(breadcrumbSchema);
 
   return (
     <script
